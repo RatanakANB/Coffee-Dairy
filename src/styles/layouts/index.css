@@ -1,0 +1,61 @@
+
+/*Primary Color */
+
+/* sidebar */
+.pal { 
+    background-color : #ded0b6
+}
+/* Header */
+.darkCof {
+    background-color : #5d504a
+}
+/* main */
+.lightCof {
+    background-color : #b6a289
+}
+
+/* Text position*/
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left
+}
+.text-right {
+    text-align: right
+}
+
+.center {
+    padding-top: 50%;
+}
+
+.side-list {
+    font-size: 30px;
+
+    font-weight: bold
+}
+
+.align-center {
+    align-items: center;
+}
+
+.items-center {
+    
+}
+
+a {
+    color: black
+}
+
+ul {
+    align-items : center
+}
+
+li {
+    padding-top : 30px;
+}
+
+.sidebar {
+    display: grid; /* New addition */
+    background-color: #ded0b6;
+}

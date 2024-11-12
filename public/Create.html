@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Taker</title>
+    <link rel="stylesheet" href="../src/styles/layouts/create.css">
+    <link rel="stylesheet" href="../src/styles/layouts/index.css">
+    <script src="../src/script/DOM.js" defer></script>
+</head>
+<body class="pal">
+    <h1>Note Taker</h1>
+    <form id="note-form">
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" placeholder="Enter your note title">
+        <br>
+        <label for="note">Note:</label>
+        <textarea id="note" name="note" rows="5" placeholder="Write your note here"></textarea>
+        <br>
+        <button type="submit" class="darkCof">Save</button>
+        <button type="button" class="lightCof" onclick="cancelCreate()">Cancel</button>
+    </form>
+
+    <script>
+        // Function to cancel and go back to Dashboard
+        function cancelCreate() {
+            window.location.href = '../public/Dashboard.html';
+        }
+    </script>
+</body>
+</html>

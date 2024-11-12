@@ -1,0 +1,41 @@
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px ;
+  grid-template-rows: 60px;
+  background-color: #808080
+}
+
+.header {
+  background-color: #fff;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2
+}
+
+.sidebar {
+  background-color: #1c1723;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3
+}
+
+.main{
+  background-color: #a3c5ca;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.flex {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.logo {
+  margin : 25px 25px
+  text
+}

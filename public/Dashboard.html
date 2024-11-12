@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../src/styles/layouts/dashBoard.css">
+    <link rel="stylesheet" href="../src/styles/layouts/index.css">
+    <link rel="stylesheet" href="../src/styles/components/header.css">
+    <link rel="stylesheet" href="../src/styles/components/card.css">
+    <script src="../src/script/DOM.js" defer></script>
+    <script src="../src/script/components/card.js" defer></script>
+</head>
+<body>
+    <header class="header darkCof text-center">
+        <div class="align-center">Dashboard</div>
+    </header>
+    <!-- Sidebar -->
+    <section class="sidebar pal">
+        <!-- Logo -->
+        <div class="logo">
+            <h1 class="text-center">The Coffee Dairy</h1>
+        </div>
+        <!-- Menu -->
+        <ul>
+            <li class="side-list pointer"><a href="Create.html">Create Note</a></li>
+            <li class="side-list pointer"><a href="#">Coffee</a></li>
+        </ul>
+    </section>
+    <!-- Board -->
+    <main class="main lightCof">
+        <div class="flex">
+            <!-- Notes will be dynamically inserted here by DOM.js -->
+        </div>
+    </main>
+    
+</body>
+</html>
